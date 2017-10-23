@@ -1,0 +1,70 @@
+.none {
+  display: none; }
+
+.clear-both {
+  clear: both; }
+
+.solicitar .seccion .loader {
+  width: 100%;
+  text-align: center;
+  color: #bdbdbd; }
+
+.schedule-table {
+  width: 100%; }
+  .schedule-table .columns-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow-y: hidden; }
+    .schedule-table .columns-container .column-item {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      display: inline-block;
+      background-color: peru;
+      text-align: center; }
+      .schedule-table .columns-container .column-item .cell-item {
+        color: #212121;
+        padding: 10px 20px;
+        background-color: #DDDBDB;
+        border: 1px solid rgba(33, 33, 33, 0.5);
+        font-weight: bold; }
+      .schedule-table .columns-container .column-item .cell-header {
+        background-color: #1B95E0;
+        color: #fff;
+        font-weight: bold; }
+      .schedule-table .columns-container .column-item .active {
+        background-color: #4dcee3;
+        color: #fff; }
+    .schedule-table .columns-container .hide {
+      display: none; }
+
+.schedule-single-select .columns-container .column-item .cell-hour, .schedule-multi-select .columns-container .column-item .cell-hour {
+  cursor: pointer; }
+
+/*-----------------------------
+			MATERIAS
+-------------------------------*/
+.materias .materia-item {
+  background: #88e3dc;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  display: block;
+  font-weight: bold;
+  border: 1px solid #212121; }
+
+/*!*----Para seleccionar elemento*!*/
+.single-select .materia-item, .multi-select .materia-item {
+  cursor: pointer;
+  background: #fff; }
+
+/*-------------------------------*/
+/*          LOGIN                */
+/*-------------------------------*/
+.login-container {
+  margin-top: 20px; }
+
+.login-message {
+  padding: 10px; }

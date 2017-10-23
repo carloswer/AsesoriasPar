@@ -1,0 +1,78 @@
+----Horarios
+	-Requiere validar por admin
+
+----Asesorias
+	-Pendientes de validar
+	-Canceladas
+	-Validada
+		-Realizadas
+		-No realizadas
+
+----------------------
+PROGRAMACIÓN
+----------------------
+
+------- BASE DE DATOS
+	-Evitar ciclos empalmados
+	-Falta tabla: Planes de las materias
+	-Poder unir mas de una materia mediante relaciones tipo "amistad" facebook
+	para materias similares de otros planes/carreras
+	-Asesorias
+		-Validacion
+			-Cancelar
+				-Quien cancelo asesoria (En caso de)
+
+------- APP
+	-Necesario que administrador acepte horario de asesor
+	-Manejar Concurrencia
+	-Verificar antes de registrar
+		-Por si pasa hora final
+	-Manejar por periodos escolares (siempre actual)
+	-Almacenar 2 asesorias para un Asesor en una Fecha-Hora determinada
+	-Guardar selecciones como carritos de compras (cache)
+	-3 días maximo para validar, después de, se tomará como "realizada"
+	-No poder crear un horario:
+		-Si no esta dentro del ciclo
+		-Si ya tiene un horario creado
+	-Asesorias
+		-Solicitar
+			-Tiempo máximo para solicitar
+				-Se cancelara la solicitud si se acaba el tiempo
+			-2 días antes
+			-Bloquear horas ya seleccionadas (maximo 2 a la vez)
+			-Poner tiempo estimado para la asesoria
+		-Mostrar
+			-En el ciclo actual
+			-Asesorias en tiempo
+			-Pendientes de validar
+			-Canceladas
+			-Validadas...
+		-Validacion
+			-Realizado
+				-Calificar
+				-Poner tiempo de duracion
+			-No realizado
+				-Comentario
+			-Cancelar
+				-Comentario
+
+
+
+----------------------
+CASOS DE PRUEBA
+----------------------
+
+
+----------------------
+OTROS
+----------------------
+-Fechas en horario par determinar a que ciclo pertenece
+-Transaccion para registro en tabla "asesor_materia" y "Dias"
+
+
+
+----------------------
+IDEAS
+----------------------
+-Poner foro para dudas generales y apoyo entre todos
+	-como google plus comunidades etc

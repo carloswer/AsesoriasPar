@@ -1,0 +1,20 @@
+{
+    "name": "itson/asesoriaspar",
+    "description": "Plataforma web para programa de la carrera de\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D asesorias par de la carrera\u001b[D\u001b[2~a\u001b[2~ ISW de ITSON",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Zuñiga",
+            "email": "carlosrozuma@gmail.com"
+        },
+        {
+            "name": "Carlos Noriega",
+            "email": "cnoriega@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^1.22",
+        "phpmailer/phpmailer": "^6.0"
+    }
+}

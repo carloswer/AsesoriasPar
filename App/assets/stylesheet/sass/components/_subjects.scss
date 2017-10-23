@@ -1,0 +1,28 @@
+/*-----------------------------
+			MATERIAS
+-------------------------------*/
+
+.materias .materia-item{
+	background: #88e3dc;
+	margin-bottom: 5px;
+	padding: 10px 20px;
+	display: block;
+	font-weight: bold;
+	border: 1px solid #212121;
+}
+
+
+/*!*----Para seleccionar elemento*!*/
+.single-select .materia-item, .multi-select .materia-item{
+	cursor: pointer;
+	background: #fff;
+}
+
+
+//.single-select .materia-item:hover, .multi-select .materia-item:hover{
+//	background: #d5d5d5;
+//}
+//
+//.single-select .materia-selected, .multi-select .materia-selected{
+//	background: #85d5ce;
+//}

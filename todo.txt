@@ -1,0 +1,2 @@
+-Implementa rediseño de tabla de horario
+-Modificar eventos de JS de horario

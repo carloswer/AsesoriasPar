@@ -1,0 +1,38 @@
+#Evitar lectura de .htaccess desde navegador
+#order allow,deny
+#deny from all
+
+
+#Evitar el listado de archivos
+#Options All -Indexes
+
+#Listar archivos
+#Options +Indexes
+
+#Ignorar archivos con cierta extension
+#IndexIgnore *.php *.asp
+
+#------Errores
+ErrorDocument 404 /www/AsesoriasPar/App/404.php
+
+#------Direcorios bloqueado
+#<Directory assets/>
+#   Order Deny,Allow
+#   Deny from all
+#   Options None
+#   AllowOverride None
+#</Directory>
+
+#<Directory includes/>
+#   Order Deny,Allow
+#   Deny from all
+#   Options None
+#   AllowOverride None
+#</Directory>
+#
+#<Directory vendor/>
+#   Order Deny,Allow
+#   Deny from all
+#   Options None
+#   AllowOverride None
+#</Directory>

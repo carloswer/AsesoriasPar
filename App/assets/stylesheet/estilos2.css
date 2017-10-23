@@ -1,0 +1,119 @@
+/*-------------------------------*/
+/*          GENERAL              */
+/*-------------------------------*/
+
+
+
+
+
+
+
+/*-------------------------------*/
+/*          HORARIO             */
+/*-------------------------------*/
+.horario{}
+
+.horario table th, td{
+	text-align: center;
+}
+
+.horario .dia-item, .hora-item{
+	padding: 10px 20px;
+	border: 1px solid #e9e9e9;
+	display: block;
+}
+
+.horario .dia-item{
+	background: #4CAF50;
+	color: #fff;
+}
+
+.horario .hora-item{
+	background: #fff;
+	font-weight: bold;
+}
+
+.horario .hora-selected{
+	background: #88e3dc;
+}
+
+/*Para elementos seleccionables del horario*/
+.single-select hora-selected, .multi-select .hora-selected{
+	background: #88e3dc;
+}
+
+.single-select .hora-item:hover, .multi-select .hora-item:hover{
+	background: #e3e3e3;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/*-----------------------------
+			ASESORIAS
+-------------------------------*/
+
+
+/*-------Encabezadoa*/
+.solicitar .asesorias__encabezados{
+	width: 100%;
+}
+
+.solicitar .asesorias__encabezados .encabezado{
+	background: #fff;
+	box-shadow: inset 0 0 0 3px  #212121;
+	color: #212121;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.solicitar .asesorias__encabezados #encabezado__materia:after{
+	content: "Materia";
+}
+
+.solicitar .asesorias__encabezados #encabezado__fecha:after{
+	content: "Fecha";
+}
+
+.solicitar .asesorias__encabezados #encabezado__asesor:after{
+	content: "Asesor";
+}
+
+.solicitar .asesorias__encabezados .active{
+	background: #212121;
+	color: #fff;
+}
+
+.solicitar .asesorias__encabezados .done{
+	background: #d5d5d5;
+	color: #212121;
+}
+
+/*------Secciones*/
+.solicitar .asesorias__secciones{
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	/*background: tomato;*/
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+/*--------Controles*/
+
+.solicitar .asesorias__controles{
+	padding: 10px 0;
+	/*background: #212121;*/
+}
+
